@@ -39,7 +39,7 @@ def next_layer( coins, parent, money ):
     return ( parent_, money_, comb )
 
 
-def count_change(money, coins):
+def count_change2(money, coins):
 
     combs = 0
     coins = sorted(set(coins))
